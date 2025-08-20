@@ -1,0 +1,9 @@
+{
+	"name": "Anaconda (Python 3)",
+	"build": { 
+		"context": "..",
+		"dockerfile": "Dockerfile",
+	},
+	"workspaceFolder": "/workspaces",
+	"postCreateCommand": "git clone https://github.com/HAS-Tools-Fall-2024/CourseMaterials24.git"
+}
